@@ -52,10 +52,10 @@ Website: [polybolos.org](https://www.polybolos.org)
 
 Anduril and Lattice are trademarks of Anduril Industries.
 
-## Beyond this open foundation
+## Contact
 
-This repository is MIT open foundation.
+Polybolos Institute builds integrated C2 systems for contested operations.
 
-Production contested / denied-comms C2 needs more: adaptive track-state estimation, pursuit-evasion geometry, decision authority, and operator HOTL. Those layers stay proprietary at Polybolos Institute.
+For production deployment, integration guidance, and commercial licensing:
 
-Integration inquiries: mark.brown@polybolos.org · https://www.polybolos.org
+mark.brown@polybolos.org · https://www.polybolos.org
