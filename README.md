@@ -25,20 +25,24 @@ This GitHub account holds **independent Anduril Lattice interoperability doors**
 
 These are **samples for interoperability demos** - not C2 core, not ROE, and **not an Anduril product**.
 
+**Flagship (denied / intermittent backhaul):** keep the track picture on the edge when publish is denied; resume entity publish when the link returns. Live Sandboxes evidence in the contested-bridge repo.
+
 | Repo | What it does |
 |------|----------------|
-| [anduril-lattice-hgv-scenario](https://github.com/Polybolos-Institute/anduril-lattice-hgv-scenario) | HGV-like COP vignette (open North Pacific; engagement authority sealed) |
-| [anduril-lattice-barksdale-scenario](https://github.com/Polybolos-Institute/anduril-lattice-barksdale-scenario) | Barksdale COP vignette (synthetic tracks; engagement authority sealed) |
-| [anduril-lattice-publish-soak](https://github.com/Polybolos-Institute/anduril-lattice-publish-soak) | Firehose entity PUT soak (5k/10k); counts 403 as Lattice-side evidence |
-| [anduril-lattice-cop-narrator](https://github.com/Polybolos-Institute/anduril-lattice-cop-narrator) | Bounded read-only COP narrator (INFO/WATCH only; not Belarx) |
+| [polybolos-lattice-cpp-contested-bridge](https://github.com/Polybolos-Institute/polybolos-lattice-cpp-contested-bridge) | C++ WinHTTP contested bridge: edge coast + live soak evidence |
+| [polybolos-denied-comms-c2](https://github.com/Polybolos-Institute/polybolos-denied-comms-c2) | Edge-native denied-comms fusion framework |
+| [anduril-lattice-publish-soak](https://github.com/Polybolos-Institute/anduril-lattice-publish-soak) | Firehose entity PUT soak (5k/10k); counts 403; no client throttle |
+| [anduril-lattice-rest-winhttp](https://github.com/Polybolos-Institute/anduril-lattice-rest-winhttp) | Shared WinHTTP Lattice REST client (OAuth, PUT, SSE stream) |
+| [anduril-mock-lattice](https://github.com/Polybolos-Institute/anduril-mock-lattice) | Local Lattice sandbox mock for CI (OAuth + entity PUT) |
+| [anduril-lattice-entity-fixtures](https://github.com/Polybolos-Institute/anduril-lattice-entity-fixtures) | Example entity JSON fixtures + mock publish tests |
+| [anduril-lattice-stream-watcher](https://github.com/Polybolos-Institute/anduril-lattice-stream-watcher) | Read-only Lattice entity stream watcher (SSE) |
 | [anduril-mavlink-lattice-bridge](https://github.com/Polybolos-Institute/anduril-mavlink-lattice-bridge) | MAVLink telemetry -> Lattice entities (C++/WinHTTP + Python) |
 | [anduril-opensky-lattice-bridge](https://github.com/Polybolos-Institute/anduril-opensky-lattice-bridge) | OpenSky ADS-B -> Lattice entities (C++/WinHTTP + Python) |
 | [anduril-dump1090-lattice-bridge](https://github.com/Polybolos-Institute/anduril-dump1090-lattice-bridge) | dump1090/readsb aircraft.json -> Lattice entities (C++/WinHTTP) |
-| [anduril-lattice-rest-winhttp](https://github.com/Polybolos-Institute/anduril-lattice-rest-winhttp) | Shared WinHTTP Lattice REST client (OAuth, PUT, SSE stream) |
-| [anduril-lattice-stream-watcher](https://github.com/Polybolos-Institute/anduril-lattice-stream-watcher) | Read-only Lattice entity stream watcher (SSE) |
-| [anduril-lattice-entity-fixtures](https://github.com/Polybolos-Institute/anduril-lattice-entity-fixtures) | Example entity JSON fixtures + mock publish tests |
-| [anduril-mock-lattice](https://github.com/Polybolos-Institute/anduril-mock-lattice) | Local Lattice sandbox mock for CI (OAuth + entity PUT) |
 | [anduril-lattice-sandbox-dx](https://github.com/Polybolos-Institute/anduril-lattice-sandbox-dx) | Auth checklist, TLS notes, ontology cheat sheet |
+| [anduril-lattice-hgv-scenario](https://github.com/Polybolos-Institute/anduril-lattice-hgv-scenario) | HGV-like COP vignette (open North Pacific; engagement authority sealed) |
+| [anduril-lattice-barksdale-scenario](https://github.com/Polybolos-Institute/anduril-lattice-barksdale-scenario) | Barksdale COP vignette (synthetic tracks; engagement authority sealed) |
+| [anduril-lattice-cop-narrator](https://github.com/Polybolos-Institute/anduril-lattice-cop-narrator) | Bounded read-only COP narrator (INFO/WATCH only; not Belarx) |
 
 **Sandboxes auth (short):** account Sandboxes Bearer in `Anduril-Sandbox-Authorization`; OAuth client id/secret per environment. Do not use an Environment JWT as the Sandboxes Bearer. Details: [anduril-lattice-sandbox-dx](https://github.com/Polybolos-Institute/anduril-lattice-sandbox-dx).
 
