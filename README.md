@@ -22,6 +22,6 @@ Polybolos Command Intelligence is a private institute platform. Source is not pu
 - Website: [polybolos.org](https://www.polybolos.org)
 - Publications: [polybolos.org/publications.html](https://polybolos.org/publications.html)
 - Evaluation Engine: [polybolos.org/eval/](https://polybolos.org/eval/)
-- Contact: [mark.brown@polybolos.org](mailto:mark.brown@polybolos.org)
+- Contact: [Contact@Polybolos.org](mailto:Contact@Polybolos.org)
 
 Independent Lattice interoperability samples on this account are research doors only. Not Anduril products. No engage authority.
